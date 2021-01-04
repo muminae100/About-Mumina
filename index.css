@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    cursor: pointer;
+}
+.logo-img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-left: 110px;
+    margin-top: 15px;
+}
+nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 30px;
+    padding-right: 90px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(0,0,0,.9);
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+}
+a:hover{
+    background-color: silver;
+    border-radius: 50%;
+}
+.Intro-container{
+    display: grid;
+    grid-template-columns: 280px auto;
+    padding: 0px;
+}
+.photo-container{
+    background-color: rgba(80,80,80,.1);
+    height: 650px;
+}
+.name{
+    position: absolute;
+    left: 0;
+    top: 7%;
+    margin-left: 170px;
+}
+.spansyd{
+    display: block;
+    font-size: 110px;
+}
+.spanben{
+    color: rgba(80,80,80,.5);
+    font-size: 110px;
+}
+.my-work{
+    font-size: 18px;
+    color: rgba(0,0,0,.8);
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px;
+}
+.photo{
+    position: absolute;
+    right:0;
+    top:4%;
+    margin-right: 250px;
+}
+.about-container{
+    display: grid;
+    grid-template-columns: 600px 500px;
+    grid-gap: 30px;
+}
+.about{
+    font-size: 100px;
+    color: rgba(80,80,80,.1);
+    margin-left: 30px;
+}
+.about-sydney{
+    position: absolute;
+    top: 1000px;
+    right: 20%;
+    font-size: 50px;
+}
+.About-me{
+    margin-right: 100px;
+}
+button{
+    background-color: #2E2D4D;
+    color: white;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+}
+button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color:black;
+   
+}
+.my-second-photo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
